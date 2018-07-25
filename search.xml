@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[图片和 分类测试]]></title>
+    <url>%2F2018%2F07%2F25%2Ftest%2F</url>
+    <content type="text"><![CDATA[测试内容]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[胖子xuxu]]></title>
     <url>%2F2018%2F07%2F23%2F%E8%83%96%E5%AD%90xx%2F</url>
     <content type="text"><![CDATA[滴滴滴肉弹战车胖子勾拳]]></content>
