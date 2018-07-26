@@ -1935,7 +1935,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #73bbff;
+  background: #ff0e9d;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3456,6 +3456,85 @@ h2.about-title {
 .category-all-page .category-all-title {
   text-align: center;
   margin-top: -50px;
+}
+@media (max-width: 1023px) {
+  .container {
+    background-color: rgba(0,0,0,0);
+  }
+  .sidebar {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .feed-link {
+    display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  .main {
+    padding-bottom: 120px;
+  }
+  .posts-expand {
+    padding-top: 0;
+    margin-left: 18px;
+    background-color: rgba(255,255,255,0.85);
+  }
+  .posts-expand .post-title {
+    font-size: 22px;
+  }
+  .posts-expand .post-meta {
+    margin: -20px 23px 20px;
+    font-size: 10px;
+  }
+  .post {
+    margin-left: 15px;
+    padding: 12px 5px 0px 5px;
+    background: rgba(255,255,255,0);
+    -webkit-box-shadow: 0 0 5px rgba(169,169,169,0.9);
+    -moz-box-shadow: 0 0 5px rgba(255,255,255,0.9);
+    float: bottom;
+  }
+  .post-body h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-left: -15px;
+    padding-left: 11px;
+  }
+  .posts-expand .post-tags {
+    margin-top: 10px;
+  }
+  .post-widgets {
+    margin-top: 10px;
+  }
+  .comments {
+    margin: 40px 0px 40px 0px !important;
+  }
+  .footer {
+    box-shadow: 0px -5px 10px 0px rgba(0,0,0,0.5);
+  }
+}
+.menu .menu-item {
+  margin: 5px 0px;
+}
+.menu .menu-item a {
+  display: block;
+  font-size: 15px;
+  line-height: inherit;
+  border-bottom: 1px solid transparent;
+  transition-property: border-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  padding: 20px 10px 20px;
+}
+.menu .menu-item a:hover {
+  border-bottom-color: rgba(161,102,171,0);
+  background-color: rgba(255,255,255,0);
+}
+.sidebar-active #sidebar-dimmer {
+  opacity: 0;
 }
 @-moz-keyframes heartAnimate {
   0%, 100% {
