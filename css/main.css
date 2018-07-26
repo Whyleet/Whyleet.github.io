@@ -1935,7 +1935,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff0e9d;
+  background: #6011b5;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3171,8 +3171,9 @@ a:hover {
 }
 @media (max-width: 900px) {
   .tag-cloud {
-    margin: -73px 15px 50px 15px;
-    padding: 86px 5px 36px 5px;
+    background-color: rgba(252,252,252,0);
+    margin: -65px 0px 40px 0px;
+    padding: 86px 36px 36px 36px;
     font-size: 15px;
   }
 }
@@ -3331,7 +3332,7 @@ p {
   background: rgba(255,255,255,0.85);
 }
 .post-block.page {
-  margin-top: 40px;
+  margin-top: 0px;
 }
 .category-all-page {
   margin: -65px 0px 0px 0px;
@@ -3341,7 +3342,8 @@ p {
 }
 @media (max-width: 767px) {
   .category-all-page {
-    margin: -73px 15px 50px 15px;
+    margin: -65px 0px 0px 0px;
+    background-color: rgba(252,252,252,0);
   }
   .category-all-page .category-all-title {
     margin-top: -5px;
@@ -3490,8 +3492,6 @@ h2.about-title {
     margin-left: 15px;
     padding: 12px 5px 0px 5px;
     background: rgba(255,255,255,0);
-    -webkit-box-shadow: 0 0 5px rgba(169,169,169,0.9);
-    -moz-box-shadow: 0 0 5px rgba(255,255,255,0.9);
     float: bottom;
   }
   .post-body h2,
