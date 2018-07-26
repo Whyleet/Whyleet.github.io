@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>tsuki ga kirei</title>
   
-  <subtitle>月色真美</subtitle>
+  <subtitle>Violet Evergarden</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-25T11:31:03.849Z</updated>
+  <updated>2018-07-26T10:05:32.573Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,20 +21,19 @@
     <link href="http://yoursite.com/2018/07/25/test/"/>
     <id>http://yoursite.com/2018/07/25/test/</id>
     <published>2018-07-25T10:19:54.269Z</published>
-    <updated>2018-07-25T11:31:03.849Z</updated>
+    <updated>2018-07-26T10:05:32.573Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>测试内容</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>测试内容<br><img src="/images/04.jpg" alt="test"></p><a id="more"></a>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
+      &lt;p&gt;测试内容&lt;br&gt;&lt;img src=&quot;/images/04.jpg&quot; alt=&quot;test&quot;&gt;&lt;/p&gt;
     
     </summary>
     
       <category term="英语" scheme="http://yoursite.com/categories/%E8%8B%B1%E8%AF%AD/"/>
+    
+      <category term="单词" scheme="http://yoursite.com/categories/%E8%8B%B1%E8%AF%AD/%E5%8D%95%E8%AF%8D/"/>
     
     
       <category term="test" scheme="http://yoursite.com/tags/test/"/>
