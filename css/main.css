@@ -1935,7 +1935,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6f0dff;
+  background: #6fad9a;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3420,6 +3420,8 @@ h2.about-title {
 .header-inner {
   padding-top: 0px;
   padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .menu .menu-item {
   margin: 5px 0px;
