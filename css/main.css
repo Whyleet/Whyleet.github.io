@@ -1935,7 +1935,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #04ffff;
+  background: #e4ffed;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3086,6 +3086,8 @@ pre .deletion {
 .posts-expand .post-title {
   font-size: 26px;
   font-weight: 700;
+  padding-top: 12px;
+  padding-bottom: 2px;
 }
 .posts-expand .post-title-link::before {
   background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);
@@ -3151,19 +3153,19 @@ a:hover {
   border-bottom-color: #a166ab;
 }
 .tag-cloud {
-  margin: -65px 0px 40px 0px;
+  margin: -77px 0px 0px 0px;
   background-color: rgba(252,252,252,0);
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
-  padding: 86px 36px 36px 36px;
+  box-shadow: 0px -3px 12px rgba(169,169,169,0.5);
+  padding: 98px 36px 36px 36px;
 }
 .tag-cloud-title {
   margin-bottom: 15px;
 }
 @media (max-width: 900px) {
   .tag-cloud {
+    margin: -77px 0px 0px 0px;
     background-color: rgba(252,252,252,0);
-    margin: -65px 0px 40px 0px;
-    padding: 86px 36px 36px 36px;
+    padding: 98px 36px 36px 36px;
     font-size: 15px;
   }
   .tag-cloud-title {
@@ -3301,13 +3303,14 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 25px 23px;
+  margin: 25px 3px;
 }
 p {
   margin: 18px 23px;
 }
 .posts-expand .post-meta {
   margin: -20px 23px 20px;
+  text-algin: center;
 }
 .posts-expand .post-footer {
   margin-top: 30px;
@@ -3328,10 +3331,10 @@ p {
   margin-top: 0px;
 }
 .category-all-page {
-  margin: -65px 0px 0px 0px;
+  margin: -77px 0px 0px 0px;
   background-color: rgba(252,252,252,0);
   box-shadow: 0px -3px 12px rgba(169,169,169,0.5);
-  padding: 86px 36px 36px 36px;
+  padding: 98px 36px 36px 36px;
 }
 @media (max-width: 767px) {
   .category-all-page {
@@ -3585,6 +3588,7 @@ img#github-emoji {
   color: #5073b8;
   border-bottom: none;
   text-decoration: none;
+  margin: 0px;
 }
 .tag-cloud a:hover {
   color: #a166ab;
@@ -3622,6 +3626,10 @@ blockquote.question {
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
   margin-bottom: 20px;
+}
+.posts-expand .post-title,
+.posts-expand .post-meta {
+  text-align: center;
 }
 @-moz-keyframes heartAnimate {
   0%, 100% {
