@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-26T10:05:32.573Z</updated>
+  <updated>2018-07-27T05:50:33.265Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/07/25/test/"/>
     <id>http://yoursite.com/2018/07/25/test/</id>
     <published>2018-07-25T10:19:54.269Z</published>
-    <updated>2018-07-26T10:05:32.573Z</updated>
+    <updated>2018-07-27T05:50:33.265Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>测试内容<br><img src="/images/04.jpg" alt="test"></p><a id="more"></a>]]></content>
     
