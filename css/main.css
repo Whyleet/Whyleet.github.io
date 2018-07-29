@@ -1929,7 +1929,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #991cff;
+  background: #7edaff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3477,7 +3477,13 @@ h2.about-title {
 }
 @media (max-width: 1023px) {
   .container {
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(183,183,255,0.3);
+  }
+  .container .header-inner {
+    width: 100%;
+  }
+  .container .menu {
+    width: 100%;
   }
   .sidebar {
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
